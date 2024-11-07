@@ -18,7 +18,7 @@ Widget defaultNavigationIconUseCase(BuildContext context) {
 
 @widgetbook.UseCase(
     designLink: 'https://www.figma.com/file/LuHhOTyQBglXOYK5b5VRSM/Widget-book-test?node-id=2019-602',
-    name: 'Default',
+    name: 'Selected',
     type: NavigationIcon
 )
 Widget selectedNavigationIconUseCase(BuildContext context) {
