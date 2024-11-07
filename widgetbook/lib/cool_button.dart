@@ -5,7 +5,7 @@ import 'package:widgetbook_annotation/widgetbook_annotation.dart' as widgetbook;
 import 'package:boost/cool_button.dart';
 
 @widgetbook.UseCase(
-    designLink: 'https://www.figma.com/design/LuHhOTyQBglXOYK5b5VRSM/Widget-book-test?node-id=2001-221&t=xpamiKa06sAMfeod-4',
+    designLink: 'https://www.figma.com/file/LuHhOTyQBglXOYK5b5VRSM/Widget-book-test?node-id=2001-221',
     name: 'Primary',
     type: CoolButton
 )
