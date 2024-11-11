@@ -6,10 +6,9 @@ import 'package:boost/components/navigation_icon.dart';
 import 'package:widgetbook_workspace/knobs/icon_knob.dart';
 
 @widgetbook.UseCase(
-  designLink: 'https://www.figma.com/file/LuHhOTyQBglXOYK5b5VRSM/Widget-book-test?node-id=2019-602',
-  name: 'Default',
-  type: NavigationIcon
-)
+    designLink: 'https://www.figma.com/file/LuHhOTyQBglXOYK5b5VRSM/Widget-book-test?node-id=2019-602',
+    name: 'Default',
+    type: NavigationIcon)
 Widget defaultNavigationIconUseCase(BuildContext context) {
   return NavigationIcon(
     icon: context.knobs.icon(
@@ -17,11 +16,11 @@ Widget defaultNavigationIconUseCase(BuildContext context) {
       initialValue: Icons.home,
     ),
     color: context.knobs.color(
-        label: 'Icon Color',
+      label: 'Icon Color',
       initialValue: Colors.grey,
     ),
     size: context.knobs.double.slider(
-      label:'Icon Size',
+      label: 'Icon Size',
       initialValue: 24.0,
       min: 16.0,
       max: 48.0,
@@ -32,8 +31,7 @@ Widget defaultNavigationIconUseCase(BuildContext context) {
 @widgetbook.UseCase(
     designLink: 'https://www.figma.com/file/LuHhOTyQBglXOYK5b5VRSM/Widget-book-test?node-id=2019-602',
     name: 'Selected',
-    type: NavigationIcon
-)
+    type: NavigationIcon)
 Widget selectedNavigationIconUseCase(BuildContext context) {
   return NavigationIcon(
     icon: context.knobs.icon(
@@ -45,7 +43,7 @@ Widget selectedNavigationIconUseCase(BuildContext context) {
       initialValue: Colors.black,
     ),
     size: context.knobs.double.slider(
-      label:'Icon Size',
+      label: 'Icon Size',
       initialValue: 24.0,
       min: 16.0,
       max: 48.0,

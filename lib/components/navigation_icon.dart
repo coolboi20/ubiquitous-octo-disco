@@ -5,7 +5,7 @@ class NavigationIcon extends StatelessWidget {
   final Color color;
   final double size;
 
-  const NavigationIcon({
+  const NavigationIcon({super.key,
     required this.icon,
     this.color = Colors.grey,
     this.size = 24.0,
